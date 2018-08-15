@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cin>>n;
+	char ch=65;
+	for(int i=1;i<=5;i++){
+
+		for(ch=65;ch<=69;ch++){
+			char ch=(char) ch;
+			cout<<ch;
+
+		}
+
+
+
+	}
+
+
+
+}
